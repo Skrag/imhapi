@@ -1,0 +1,26 @@
+{
+  "name": "imhapi",
+  "version": "1.0.0",
+  "description": "Tutorial para aprender a ser hapi en grupo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danicg/imhapi.git"
+  },
+  "author": "Daniel Caldera daniel@caseonit.com",
+  "license": "(ISC) BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/danicg/imhapi/issues"
+  },
+  "homepage": "https://github.com/danicg/imhapi#readme",
+  "engines": {
+    "npm": ">=3.6.0",
+    "node": ">=5.6.0"
+  },
+  "devDependencies": {
+    "lab": "^9.0.0"
+  }
+}
