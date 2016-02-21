@@ -2,8 +2,9 @@
   "name": "imhapi",
   "version": "1.0.0",
   "description": "Tutorial para aprender a ser hapi en grupo",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   },
   "devDependencies": {
     "lab": "^9.0.0"
+  },
+  "dependencies": {
+    "hapi": "^13.0.0"
   }
 }
