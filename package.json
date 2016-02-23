@@ -20,6 +20,9 @@
         "url": "https://github.com/Skrag/imhapi/issues"
     },
     "homepage": "https://github.com/caseonit/imhapi/wiki",
+    "dependencies": {
+        "hapi": "^13.0.0"
+    },
     "devDependencies": {
         "lab": "^9.1.0"
     }
