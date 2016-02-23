@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/caseonit/imhapi/wiki",
     "devDependencies": {
-        "lab": "^8.2.0"
+        "lab": "^9.1.0"
     }
 }
