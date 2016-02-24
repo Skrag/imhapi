@@ -5,7 +5,7 @@
     "main": "lib/index.js",
     "scripts": {
       "start": "node lib/index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
     },
     "repository": {
       "type": "git",
@@ -22,7 +22,8 @@
       "node": ">=5.6.0"
     },
     "devDependencies": {
-      "lab": "^9.1.0"
+      "lab": "^9.1.0",
+      "code": "x"
     },
     "dependencies": {
       "hapi": "^13.0.0"
