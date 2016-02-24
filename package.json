@@ -2,10 +2,10 @@
     "name": "imhapi",
     "version": "1.0.0",
     "description": "Tutorial para aprender a ser hapi en grupo",
-    "main": "lib/index.js",
+    "main": "lib/start.js",
     "scripts": {
-      "start": "node lib/index.js",
-        "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
+      "start": "node lib/start.js",
+      "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
     },
     "repository": {
       "type": "git",
