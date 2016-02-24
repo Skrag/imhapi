@@ -5,7 +5,7 @@ module.exports = {
         "atomtest": true,
         "es6": true
     },
-    "extends": "./node_modules/lab/lib/linters/eslint/.eslintrc.js",
+    "extends": "./node_modules/lab/lib/linter/.eslintrc.js",
     "rules": {
         "no-shadow": [
             2,
