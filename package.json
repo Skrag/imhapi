@@ -12,7 +12,7 @@
     "url": "git+https://github.com/danicg/imhapi.git"
   },
   "author": "Daniel Caldera <daniel@caseonit.com>",
-  "license": "(ISC) BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/danicg/imhapi/issues"
   },
