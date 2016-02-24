@@ -4,26 +4,27 @@
     "description": "Tutorial para aprender a ser hapi en grupo",
     "main": "lib/index.js",
     "scripts": {
+        "start": "node lib/index.js -e 'process.env.mode=8000'",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
       "type": "git",
       "url": "git+https://github.com/caseonit/imhapi"
     },
-    "author": "Sergio Martin sergio@caseonit.com",
+    "author": "Sergio Martin <sergio@caseonit.com>",
     "license": "BSD-3-Clause",
     "engines":{
-      "node":"^5.6.0",
-      "npm":"^3.6.0"
+      "node":">=5.6.0",
+      "npm":">=3.6.0"
     },
     "bugs": {
-        "url": "https://github.com/caseonit/imhapi/issues"
+        "url": "https://github.com/Skrag/imhapi/issues"
     },
     "homepage": "https://github.com/caseonit/imhapi/wiki",
     "dependencies": {
         "hapi": "^13.0.0"
     },
     "devDependencies": {
-        "lab": "^8.2.0"
+        "lab": "^9.1.0"
     }
 }
