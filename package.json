@@ -5,13 +5,13 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab test --coverage --lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danicg/imhapi.git"
   },
-  "author": "Daniel Caldera <daniel@caseonit.com>",
+  "author": "Miguel Herrero <miguel@caseonit.com>",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/danicg/imhapi/issues"
@@ -22,6 +22,7 @@
     "node": ">=5.6.0"
   },
   "devDependencies": {
+    "code": "^2.1.0",
     "lab": "^9.0.0"
   },
   "dependencies": {
