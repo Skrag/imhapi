@@ -63,6 +63,7 @@ describe('/', () => {
         Server.init(0, (err, server) => {
 
             expect(err).to.exist();
+            expect(err.message).to.equal('register version failed');
 
             done();
         });
