@@ -2,17 +2,17 @@
   "name": "imhapi",
   "version": "1.0.0",
   "description": "Tutorial para aprender a ser hapi en grupo",
-  "main": "lib/index.js",
+  "main": "lib/start.js",
   "scripts": {
-    "start": "node lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/start.js",
+    "test": "lab test --coverage --lint --verbose --assert code --reporter console"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danicg/imhapi.git"
   },
-  "author": "Daniel Caldera <daniel@caseonit.com>",
-  "license": "(ISC) BSD-3-Clause",
+  "author": "Miguel Herrero <miguel@caseonit.com>",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/danicg/imhapi/issues"
   },
@@ -22,9 +22,11 @@
     "node": ">=5.6.0"
   },
   "devDependencies": {
+    "code": "^2.1.0",
     "lab": "^9.0.0"
   },
   "dependencies": {
-    "hapi": "^13.0.0"
+    "hapi": "^13.0.0",
+    "hapi-auth-basic": "^4.1.0"
   }
 }
