@@ -1,0 +1,11 @@
+{
+    "users": {
+        "john": {
+            "name": "John Doe",
+            "username": "john",
+            "plain_password": "$2a$10$iqJSHD.BGr0E2IxQwYgJmeP3NvhPrXAeLSaGCj6IR/XU5QtjVu5Tm",
+            "password": "secret",
+            "id": "2133d32a"
+        }
+    }
+}

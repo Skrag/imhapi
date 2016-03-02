@@ -1,31 +1,32 @@
 {
-    "name": "imhapi",
-    "version": "1.0.0",
-    "description": "Tutorial para aprender a ser hapi en grupo",
-    "main": "lib/start.js",
-    "scripts": {
-      "start": "node lib/start.js",
-      "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/caseonit/imhapi"
-    },
-    "author": "Sergio Martin Vegazo <sergio.martin@caseonit.com>",
-    "license": "BSD-3-Clause",
-    "bugs": {
-        "url": "https://github.com/Skrag/imhapi/issues"
-    },
-    "homepage": "https://github.com/caseonit/imhapi/wiki",
-    "engines": {
-      "npm": ">=3.6.0",
-      "node": ">=5.6.0"
-    },
-    "devDependencies": {
-      "lab": "^9.1.0",
-      "code": "2.1.0"
-    },
-    "dependencies": {
-      "hapi": "^13.0.0"
-    }
+  "name": "imhapi",
+  "version": "1.0.0",
+  "description": "Tutorial para aprender a ser hapi en grupo",
+  "main": "lib/start.js",
+  "scripts": {
+    "start": "node lib/start.js",
+    "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caseonit/imhapi"
+  },
+  "author": "Sergio Martin Vegazo <sergio.martin@caseonit.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Skrag/imhapi/issues"
+  },
+  "homepage": "https://github.com/caseonit/imhapi/wiki",
+  "engines": {
+    "npm": ">=3.6.0",
+    "node": ">=5.6.0"
+  },
+  "devDependencies": {
+    "lab": "^9.1.0",
+    "code": "2.1.0"
+  },
+  "dependencies": {
+    "hapi": "^13.0.0",
+    "hapi-auth-basic": "^4.1.0"
+  }
 }
