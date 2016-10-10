@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danicg/imhapi.git"
+    "url": "git+https://github.com/caseonit/imhapi.git"
   },
   "author": "Miguel Herrero <miguel@caseonit.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/danicg/imhapi/issues"
+    "url": "https://github.com/caseonit/imhapi/issues"
   },
-  "homepage": "https://github.com/danicg/imhapi#readme",
+  "homepage": "https://github.com/caseonit/imhapi#readme",
   "engines": {
     "npm": ">=3.6.0",
     "node": ">=5.6.0"
@@ -26,6 +26,7 @@
     "lab": "^9.0.0"
   },
   "dependencies": {
+    "glue": "^3.2.0",
     "hapi": "^13.0.0",
     "hapi-auth-basic": "^4.1.0"
   }
